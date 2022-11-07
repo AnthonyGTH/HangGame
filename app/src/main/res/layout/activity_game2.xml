@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".GameActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_height="392dp"
+            app:srcCompat="@drawable/estructura" />
+
+        <ImageView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="376dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/body" />
+
+        <ImageView
+            android:id="@+id/legs"
+            android:paddingLeft="6dp"
+            android:paddingBottom="10dp"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="392dp"
+            app:srcCompat="@drawable/legs" />
+
+        <ImageView
+            android:id="@+id/arms"
+            android:layout_width="wrap_content"
+            android:layout_height="392dp"
+            android:paddingLeft="6dp"
+            android:paddingTop="0dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/arms" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" />
+
+    <GridView
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="429dp"
+        android:layout_marginBottom="5dp"
+        android:background="#b2b5ac"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"/>
+
+
+</LinearLayout>

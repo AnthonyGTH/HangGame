@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>PERRO</item>
+        <item>CARRO</item>
+        <item>CASA</item>
+        <item>TELEFONO</item>
+        <item>ALUMNO</item>
+        <item>COMPUTADORA</item>
+        <item>GUITARRA</item>
+        <item>TECLADO</item>
+        <item>PANTALLA</item>
+        <item>PINTURA</item>
+        <item>COLORES</item>
+        <item>LAPIZ</item>
+        <item>BORRADOR</item>
+        <item>SACAPUNTAS</item>
+        <item>LIBRO</item>
+        <item>LIBRETA</item>
+        <item>CUADERNO</item>
+        <item>CAFE</item>
+        <item>AGUA</item>
+        <item>BALLENA</item>
+        <item>LOBO</item>
+        <item>CARACOL</item>
+        <item>ESCUELA</item>
+        <item>TECNOLOGIA</item>
+        <item>CAMISA</item>
+        <item>PANTALON</item>
+        <item>SHORT</item>
+        <item>LENTES</item>
+        <item>ACORDEON</item>
+        <item>PIANO</item>
+        <item>CARACOL</item>
+        <item>ESCUELA</item>
+        <item>TECNOLOGIA</item>
+        <item>TREN</item>
+        <item>GATO</item>
+        <item>SILLA</item>
+        <item>SILLON</item>
+        <item>CAMA</item>
+        <item>REFRIGERADOR</item>
+        <item>RATON</item>
+        <item>NUEZ</item>
+        <item>JUGO</item>
+        <item>MANZANA</item>
+        <item>SANDIA</item>
+        <item>LIMON</item>
+        <item>VENTILADOR</item>
+        <item>BALON</item>
+
+    </string-array>
+</resources>
